@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="th" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="nav.about">เกี่ยวกับเรา | LockerLink Startup</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    :root{ --brand:#38bdf8; }
+    body{ background:#0b1220; color:#e5e7eb; font-family: "Prompt", system-ui; }
+    .surface{ background:#111827; border:1px solid rgba(255,255,255,.06); border-radius:1rem; }
+    .badge-pill{ border-radius:999px; border:1px solid rgba(255,255,255,.12); padding:.35rem .75rem; }
+    .avatar{ width:160px; height:160px; border-radius:999px; object-fit:cover; border:4px solid #0b1220; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg border-bottom" style="background:#0b1220c9; backdrop-filter: blur(8px);">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <i class="bi bi-box-seam"></i> <span data-i18n="brand">LockerLink</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html#home" data-i18n="nav.home">หน้าแรก</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#features" data-i18n="nav.features">ฟีเจอร์</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#pricing" data-i18n="nav.pricing">ราคา</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#" data-i18n="nav.about">เกี่ยวกับเรา</a></li>
+
+        
+        <li class="nav-item dropdown ms-lg-2">
+          <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            🌐 <span id="lang-label">TH</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+            <li><a class="dropdown-item lang-option" data-lang="th">🇹🇭 ไทย</a></li>
+            <li><a class="dropdown-item lang-option" data-lang="en">🇬🇧 English</a></li>
+            <li><a class="dropdown-item lang-option" data-lang="zh">🇨🇳 中文</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section class="py-5 text-center" style="background:#0f172a;">
+  <div class="container">
+    <h1 class="fw-bold" data-i18n="about.hero.title">เกี่ยวกับ LockerLink</h1>
+    <p class="text-secondary lead mt-2" data-i18n="about.hero.subtitle">
+      เราเป็นสตาร์ทอัพที่ทำให้การสั่ง-รับของเป็นเรื่องง่าย ปลอดภัย และเข้าถึงได้สำหรับทุกคน
+    </p>
+    <div class="d-flex gap-2 justify-content-center">
+      <span class="badge-pill">Smart Locker</span>
+      <span class="badge-pill">Mobile App</span>
+      <span class="badge-pill">PDPA-Ready</span>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <div class="surface p-4 p-lg-5">
+      <h2 class="fw-bold mb-3" data-i18n="about.mission.title">ภารกิจของเรา</h2>
+      <p class="text-secondary mb-0" data-i18n="about.mission.text">
+        พัฒนาระบบล็อกเกอร์อัจฉริยะและแอปมือถือเพื่อรองรับการรับสินค้า-พัสดุแบบไม่ต้องต่อคิว
+        ลดงานหน้าฟรอนต์สำหรับหน่วยงาน/หอพัก และเพิ่มประสบการณ์ผู้ใช้ให้กับร้านค้าปลีกและชุมชน
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-4">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4" data-i18n="about.team.title">ทีมงานของเรา</h2>
+    <div class="row g-4 justify-content-center">
+
+
+      <div class="col-md-4">
+        <div class="surface p-4 text-center h-100 d-flex flex-column">
+          <img class="avatar mx-auto" src="รูปประจำตัว.png" alt="Yotsakorn Klahan">
+          <h5 class="mt-3 mb-1">นายยศกร กล้าหาญ</h5>
+          <div class="text-secondary small mb-2">Project Leader</div>
+          <p class="text-secondary flex-grow-1">
+            ดูแลงานภาพรวม 
+          </p>
+          <a href="https://github.com/Draco-afk" target="_blank" class="btn btn-outline-light btn-sm mt-3">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+     
+      <div class="col-md-4">
+        <div class="surface p-4 text-center h-100 d-flex flex-column">
+          <img class="avatar mx-auto" src="นายอาร์ม.png" alt="Jetsada Wongkaew">
+          <h5 class="mt-3 mb-1">นายเจษฏา วงศ์แก้ว</h5>
+          <div class="text-secondary small mb-2">UI/UX Designer</div>
+          <p class="text-secondary flex-grow-1">
+            ออกแบบ UI 
+          </p>
+          <a href="https://github.com/armza8053-alt" target="_blank" class="btn btn-outline-light btn-sm mt-3">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="surface p-4 text-center h-100 d-flex flex-column">
+          <img class="avatar mx-auto" src="สันติ.png" alt="Santisuk Klakarnrob">
+          <h5 class="mt-3 mb-1">นายสันติสุข กล้าการรบ</h5>
+          <div class="text-secondary small mb-2">Frontend Developer</div>
+          <p class="text-secondary flex-grow-1">
+            พัฒนาเว็บด้วย Bootstrap, จัดทำ Landing + Dashboard
+          </p>
+          <a href="https://github.com/Ostudio007" target="_blank" class="btn btn-outline-light btn-sm mt-3">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="py-4 border-top" style="background:#0b1220;">
+  <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+    <small class="text-secondary" data-i18n="footer.copy">© 2025 LockerLink — All rights reserved.</small>
+    <div class="d-flex gap-3 mt-3 mt-md-0">
+      <a class="link-fade" href="#"><i class="bi bi-envelope"></i></a>
+      <a class="link-fade" href="#"><i class="bi bi-facebook"></i></a>
+      <a class="link-fade" href="#"><i class="bi bi-github"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="i18n.js"></script>
+</body>
+</html>
